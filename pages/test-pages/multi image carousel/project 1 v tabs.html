@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  text-align: center;
+  border: 3px solid #ccc;
+  background-color: ;
+  width: 15%;
+  height: 1000px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: #7c7c7c;
+  padding: 15px 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #cccccc;
+  color: #141314;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #000000;
+  color: #f1f0f1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 1000px;
+}
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: .2;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: .2;}
+  to {opacity: 1;}
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 5s;
+  animation: fadeEffect 5s;
+}
+
+
+
+/* align work around */
+.margin { 
+  margin-left: 45px;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="margin"><center>
+<table width="85%"><tr><td>
+<div class="tab">
+<br><br><br><br><h3> logo </h3><br><br><br><br>
+<!--
+<button></button><button></button><button></button><button></button>
+-->
+  <button class="tablinks" onclick="openCity(event, 'ABSTRACT')" id="defaultOpen">ABSTRACT</button>
+  <button class="tablinks" onclick="openCity(event, 'SCAPES')">SCAPES</button>
+  <button class="tablinks" onclick="openCity(event, 'ADVENTURE')">ADVENTURE</button>
+</div>
+
+<div id="ABSTRACT" class="tabcontent">
+  <img src="https://picsum.photos/610" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/618" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/619" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!">
+	  <p></p>
+	   <img src="https://picsum.photos/614" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/615" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/616" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!"> 
+	  	  <p></p>
+	   <img src="https://picsum.photos/611" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/612" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/613" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!"> 
+</div>
+
+<div id="SCAPES" class="tabcontent">
+  <img src="https://picsum.photos/627" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/628" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/629" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!">
+	  <p></p>
+	   <img src="https://picsum.photos/624" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/625" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/626" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!"> 
+	  	  <p></p>
+	   <img src="https://picsum.photos/621" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/622" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/623" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!"> 
+</div>
+
+<div id="ADVENTURE" class="tabcontent">
+  <img src="https://picsum.photos/607" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/608" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/609" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!">
+	  <p></p>
+	   <img src="https://picsum.photos/604" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/605" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/606" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!"> 
+	  	  <p></p>
+	   <img src="https://picsum.photos/601" style="width:30%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://picsum.photos/602" style="width:30%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="https://picsum.photos/603" style="width:30%" onclick="onClick(this)" alt="What a beautiful day!"> 
+</div>
+</div>
+</table></center>
+
+<br><br>
+<!---->
+<center>
+<div class="w3-bar">
+  <a href="#" class="w3-button">«</a>
+  <a href="#" class="w3-button w3-green">1</a>
+  <a href="#" class="w3-button">2</a>
+  <a href="#" class="w3-button">3</a>
+  <a href="#" class="w3-button">4</a>
+  <a href="#" class="w3-button">»</a>	
+</div>
+
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  
+  
+  
+<br><Br><Br>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+
+<!--
+	<a href="https://www.instagram.com/11a.adams"><img src="images/logos/Instagram.png" style="width:1.5%"  class="w3-hover-opacity" alt="Instagram"></a>
+	<a href="https://kit.co/AlanAdams"><img src="images/logos/kit-co.png" style="width:2.5%"  class="w3-hover-opacity" alt="Kit.co"></a>
+	<a href="https://www.patreon.com/resfeber"><img src="images/logos/Patreon.png" style="width:1.5%"  class="w3-hover-opacity" alt="Patreon"></a>
+-->
+		
+	<a href="https://www.instagram.com/11a.adams"><img src="images/logos/Instagram.png" style="width:1.5%"  class="w3-hover-opacity" alt="Instagram"></a>
+	<a href="https://kit.co/AlanAdams"><img src="images/logos/kit-co-sized.png" style="width:1.5%"  class="w3-hover-opacity" alt="Kit.co"></a>
+	<a href="https://www.patreon.com/resfeber"><img src="images/logos/Patreon-sized.png" style="width:1.5%"  class="w3-hover-opacity" alt="Patreon"></a>
+	<a href="https://www.patreon.com/resfeber"><img src="images/logos/bloggerwl.png" style="width:1.5%"  class="w3-hover-opacity" alt="Blog"></a>
+	
+	
+  </div>
+  
+  
+</footer>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+
+
+
+
+
+
+</script>
+   
+</body>
+</html> 
