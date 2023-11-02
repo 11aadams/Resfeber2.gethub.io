@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>CV 4</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+
+.collapsible {
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active {
+  background-color: white;
+}
+
+.collapsible:hover {
+  background-color: #f2f2f2;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+
 </style>
 </head>
-<body class="w3-light-grey">
+<body class="w3-light-grey" id="home">
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -24,81 +58,46 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="https://picsum.photos/2000" style="width:100%" alt="Avatar">
+          <img src="profile (3).jpg" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Jane Doe</h2>
+            <h1 class="w3-large w3-text-white"><span class="w3-padding w3-black w3-opacity">Alan Adams</span>
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          
+          <p><i class="fa fa-map-marker fa-fw w3-margin-right w3-large w3-text-teal"></i>Philadelphia, PA.</p>
+          <p><i class="fa fa-envelope-o fa-fw w3-margin-right w3-large w3-text-teal"></i>alanadamsphoto@gmail.com</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
           <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Illustrator</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <br>
-
-
 
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
           <p>English</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:100%">
+			<div class="w3-center w3-text-white">Fluent</div></div>
           </div>
-          <p>Spanish</p>
+          <p>French</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:40%">
+			<div class="w3-center w3-text-white">A1</div></div>
           </div>
-          <p>German</p>
+          <p>Swedish</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-            </div>
-          <br>
-            
-			
-            
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>mmmmmmm</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:35%">
+			<div class="w3-center w3-text-white">A1</div></div>
           </div>
-          <p>Spanish</p>
+		  <p>ASL</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:20%">
+			<div class="w3-center w3-text-white">Beginner</div></div>
           </div>
-          <p>German</p>
+		  <p>Nepali</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-            </div>
-          <br>
-            
-			
-			
-			
-			
-			
-            
-          
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:15%">
+			<div class="w3-center w3-text-white">Started</div></div>
+          </div>
+		  <br>
         </div>
       </div><br>
 
@@ -108,20 +107,81 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Right Column -->
     <div class="w3-twothird">
     
+    
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-chevron-up fa-fw w3-margin-right w3-xxlarge w3-text-brown"></i>Accomplishments</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Bike & Build Volunteer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 & 2022<!--  <span class="w3-tag w3-teal w3-round">2017 & 2022</span>  -->  </h6>
+          <p>SUS17 Jacksonville Florida to Monterey California. 2.5 Months, 4,000+ Miles, 15 Build Days, $175k Raised <br>
+		  DW22 Portland Oregon to Bellingham Washington. PNW Volunteer. 3 Weeks, 1000+ Miles, 7 Build days, 100k Raised<br>
+		  - link to blog post/website</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Workaway</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2020</h6>
+          <p>France (Paris,other,Surat,) - Nepal (katmandu,pokhara,sanja)</p>
           <hr>
         </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Outdoor</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2020</h6>
+          <p>
+		  Climbing - PA, NJ, WY, KY, NY, France, Nepal. Bouldering V7 Sport 6b+/5.10d<br>
+		  Hiking - WY, PA, France, Nepal. Medicine Bow Peak summit 12,009' - Mount Monadnock<br>
+		  Camping - <br><br>
+		  Running 
+  <div class="w3-dropdown-hover">&emsp;<u>FISHTAIL RACE</u>
+    <div class="w3-dropdown-content w3-card-4" style="width:250px">
+      <!--<a href="https://fishtailrace.com/">--><img src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/73147783_827274234371145_5954438184094924800_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=bd3046&_nc_ohc=ULcC7Uo4PiQAX_Qa8ts&_nc_ht=scontent-lga3-2.xx&oh=00_AfBMcfZIbpX7RZzpNy2fPlXRappqvgsCshLHf_5suFxNJQ&oe=65603964" alt="FISHTAIL RACE" style="width:100%">
+      <div class="w3-container">
+        <p>10k trail race</p>
+        <p>Pokhara, Nepal</p>
+        <p><a href="https://fishtailrace.com/">Website</a></p>
+      </div>
+    </div></a>
+  </div>
+
+  </p>
+          <hr>
+        </div>
+		
+		Biking <br>
+  <div class="w3-dropdown-hover">&emsp;<u>SUS17</u>
+    <div class="w3-dropdown-content w3-card-4" style="width:250px">
+      <!--<a href="https://fishtailrace.com/">--><img src="https://bikeandbuild.org/wp-content/uploads/2022/10/Artboard-3.png" alt="SUS" style="width:100%">
+      <div class="w3-container">
+	  <ul>
+		<li>2.5 Months
+		<li>4,000+ Miles
+		<li>15 Build Days
+        <p><a href="https://sus2017blog.wordpress.com/">Blog</a></p>
+      </div>
+    </div></a>
+  </div>
+  
+    <div class="w3-dropdown-hover">&emsp;<u>DW22</u>
+    <div class="w3-dropdown-content w3-card-4" style="width:250px">
+      <!--<a href="https://fishtailrace.com/">--><img src="https://bikeandbuild.org/wp-content/uploads/2021/07/DW-final.jpg" alt="Drift West" style="width:100%">
+      <div class="w3-container">
+        <ul>
+		<li>3 Weeks
+		<li>1,000+ Miles
+		<li>7 Build Days
+        <p><a href="https://fishtailrace.com/">Blog</a></p>
+      </div>
+    </div></a>
+  </div>
+
+ 
+          <hr>
+        
+		
+		
+		
+		
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
@@ -129,115 +189,226 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-	</div></div>
-		
-	
-	
-	
-<!-- -->
- <div class="w3-twothird">
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Programs</h2>
+
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom w3-padding">
+      
+<!--      <button type="button" class="collapsible  w3-padding">  -->
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-ellipsis-v fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><s>Certification</s> - TBD</h2></button>
+        <div class="content">
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Photo Editing</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Photoshop/Affanity Photo/Pixlr</p>
+          <h5 class="w3-opacity"><b>Part 107</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"><br></i>2023</h6>
+          <p>Commercial Drone Pilot license</p>
           <hr>
+          
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Video Editing</b></h5>
+          <h5 class="w3-opacity"><b>PADA</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>DaVinci Resolve/After Effects</p>
+          <p>Scuba Open water</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>CAD/3D Design & Printing</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>AutoDesk/Cura/TinkerCAD/</p><br>
+          <h5 class="w3-opacity"><b>Medical</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Red Cross First aid & CPR</p><br>
+		  NOLS Wilderness First Responder
+          <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Design</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>AutoDesk/Cura/TinkerCAD/</p><br>
-        </div>	
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Accounting</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Quickbooks</p><br>
+          <h5 class="w3-opacity"><b>Cycling</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p><a href="https://na.s-tec.shimano.com/contest/metal">S-TEC Certifications</a></p>
+          <hr>
         </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Climbing</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bouldering, Sport/Lead, Trad, Bigwall, Ice, Alpine, Mountaineering, Avalanche</p><br>
+   </div></div></div>
+   
+   
+   
+         <div class="w3-container w3-card w3-white w3-margin-bottom w3-padding">
+      
+      <button type="button" class="collapsible">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-align-justify fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Programs & Skills</h2></button>
+        <div class="content">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>3D Design & Printing - Laser Cutting</b></h5>
+          <div class="row">
+          <div class=" w3-container">
+          <h6 class="w3-text-teal w3-quarter">
+		  <i class="fa fa-calendar fa-fw w3-margin-right"></i> 15 Years </h6>
+		  
+		  <div class="w3-threequarter w3-container w3-padding">
+			<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:80%">
+			<div class="w3-center w3-text-white">80% Proficient</div></div></div></div></div>
+		  
+          <p>AutoCAD - Cura Slicer - TinkerCAD - InkScape</p>
+          <hr>
+		  </div></div>
+		  
 		<div class="w3-container">
-          <h5 class="w3-opacity"><b>Spreedsheets</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Google sheets/Excel</p><br>
-        </div>		
+          <h5 class="w3-opacity"><b>Photo Editing / Restoration & Grapic design</b></h5>
+          <div class="row">
+          <div class=" w3-container">
+          <h6 class="w3-text-teal w3-quarter">
+		  <i class="fa fa-calendar fa-fw w3-margin-right"></i> 11 Years</h6>
+		  	
+            <div class="w3-threequarter w3-container w3-padding">
+			<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:85%">
+			<div class="w3-center w3-text-white">85% Proficient</div></div></div></div></div>
+		  
+          <p>Adobe Photoshop & Illustrator </p>
+		  <p>Affinity Photo & Designer & Publisher</p>
+          <hr>
+        </div></div>
+		
+		
         <div class="w3-container">
-          <h5 class="w3-opacity"><b></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>AutoDesk/Cura/TinkerCAD/</p><br>
-        </div></div>	
+          <h5 class="w3-opacity"><b>Accounting & Data analyst</b></h5>
+          <div class="row">
+          <div class=" w3-container">
+          <h6 class="w3-text-teal w3-quarter">
+		  <i class="fa fa-calendar fa-fw w3-margin-right"></i> 3 Years</h6>
+		  
+		  <div class="w3-threequarter w3-container w3-padding">
+			<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:75%">
+			<div class="w3-center w3-text-white">75% Proficient</div></div></div></div></div>
+		  
+          <p>QuickBooks - Google Sheets - Microsoft Excel</p><br>
+		  <hr>
+		  </div></div>
+   
+   
+   		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Other Programs</b></h5>
+          <div class="row">
+          <div class=" w3-container">
+          <h6 class="w3-text-teal w3-quarter">
+		  <i class="fa fa-calendar fa-fw w3-margin-right"></i> 11 Years</h6>
+		  	
+            <div class="w3-threequarter w3-container w3-padding">
+			<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-highway-brown" style="height:24px;width:70%">
+			<div class="w3-center w3-text-white">70% Proficient</div></div></div></div></div>
+		  
+          <p>Adobe premiere, DaVinci Resolve, Audacity | Slack</p>
+		  <p>Web Design: HTML, CSS, JavaScript | Wordpress, Wix, | AirTables</p>
+		  <p><!--<i class="fa fa-google" aria-hidden="true" style="font-size:24px;"></i> -->Google Suite: Doc, Sheets, Forms, Slides, My Maps, Sites, Drive</p>
+		  <p><!--<i class="fa fa-windows" aria-hidden="true" style="font-size:18px;"></i> -->Microsoft Suite: Word, Excel, Powerpoint, Teams, Outlook, OneDrive</p>
+        </div></div>
+		</div></div>
+   </button>
+
+   
+   
+   
+         <div class="w3-container w3-card w3-white w3-margin-bottom w3-padding">
+      
+      <button type="button" class="collapsible">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-th-large fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work & Educations</h2></button>
+        <div class="content">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>REI - Action Sports Salse Lead</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"><br></i>2021 - 2023</h6>
+          <p>Action Sports Salse Lead. 
+		  <br>Anything Bikes, Car Racks, Snowsports & Watersports.
+		  <br>Climb & Camp</p>
+          <hr>
+          
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Rock Gyms</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2021</h6>
+          <p> • Philadephia Rock Gyms Climbing Instructor and Desk staff &ensp;<class="w3-text-teal"><i class="fa fa-calendar fa-fw"></i> 2018-2019 
+		  <br> • Tufas Boulder Lounge Youth Coach and Desk staff  &emsp;<class="w3-text-teal"><i class="fa fa-calendar fa-fw"></i> 2019 to 2021</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Bike & Build - Office Coordinator</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2019</h6>
+          <p><i class="fa fa-circle" aria-hidden="true"></i>  &ensp;
+		  Data Tracking and Analyst  &ensp;<i class="fa fa-minus" aria-hidden="true"></i>  &ensp;
+		  Money allocation  &ensp;<i class="fa fa-minus" aria-hidden="true"></i>  &ensp;
+		  Donations  &ensp;<i class="fa fa-minus" aria-hidden="true"></i>  &ensp;
+		  Reconciliation  &ensp;<i class="fa fa-minus" aria-hidden="true"></i>  &ensp;
+		  Graphic & Web Design</p><br>
+		  </div>
 	
-	
-	
-	
-	
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+       <div class="w3-container">
+          <h5 class="w3-opacity"><b>Volunteer Work</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2022</h6>
+          <p>restore - co ,Jacksonville,Talahasse,New orleans SBP, Dallas, Santa Fe, South Utah, Durango, Philly Block Build, Philly, Portland, All of DW</p>
+		  <br><ul>
+		  <li>Construction
+		  <li>Restoration
+		  <li>Demolition
+		  <li>Painting
+		  <li>Landscaping
+          <hr>
+        </div>
+
+       <div class="w3-container">
+          <h5 class="w3-opacity"><b>Grocery</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Fareway - Produce Assistant manager &ensp;<class="w3-text-teal"><i class="fa fa-calendar fa-fw"></i> 2013 to 2015
+		  <br>Safeway - Courtesy clerk &ensp;<class="w3-text-teal"><i class="fa fa-calendar fa-fw"></i> 2009 to 2012</p>
+          <hr>
+        </div>		
+		  
+
+       <div class="w3-container">
+          <h5 class="w3-opacity"><b>Schooling</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>LHS diploma</p> 
+		  <p> - Ambassador of science </p>
+		  <p> - 11.5 years of science </p>
+		  <p> - 4 years math - 3.75 GPA </p>
+		  <p> - Geology, Bio 1 & 2, Physics, Chem 1 & AP Chemistry, Web Design, Computer Tech, CAD I & II, Architectural CAD, Photography, Yearbook, Algebra 1 & 2, Geometry, Trig</p>
+          <hr>
+        </div>		
+		  
+   </div></div></button>
+   
+   
+   
+  
+         <div class="w3-container w3-card w3-white w3-margin-bottom w3-padding">
+      
+      <button type="button" class="collapsible">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2></button>
+        <div class="content">
         <div class="w3-container">
           <h5 class="w3-opacity"><b>365 Photo</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"><br></i>Forever</h6>
           <p>Web Development! All I need to know in one place</p>
           <hr>
+          
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Design</b></h5>
+          <h5 class="w3-opacity"><b>Design & Sell</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
+          <p>Photo Books, Calendars, Laser cut JR badges, Etsy, Shapeways</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>School of Coding</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
           <p>Bachelor Degree</p><br>
-        </div>
-	</div></div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
-		
+   </div></div></div></button>
+   
+
+   
+   
       </div>
+      </div>       
 
     <!-- End Right Column -->
     </div>
@@ -248,16 +419,45 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+<!-- Footer -->
+<<footer class="w3-center w3-black w3-padding-16">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-section">
+		
+	<a href="https://www.instagram.com/11a.adams"><img src="../media/logos/instagram.png" style="width:1.5%"  class="w3-hover-opacity" alt="Instagram"></a>
+	<a href="https://kit.co/AlanAdams"><img src="../media/logos/kit-co.png" style="width:1.5%"  class="w3-hover-opacity" alt="Kit.co"></a>
+	<a href="https://www.patreon.com/resfeber"><img src="../media/logos/patreon.png" style="width:1.5%"  class="w3-hover-opacity" alt="Patreon"></a>
+	<a href="https://www.workaway.info/en/workawayer/Alan_Adams/overview"><img src="../media/logos/workaway.png" style="width:2.5%"  class="w3-hover-opacity" alt="WorkAway"></a>
+	<a href="https://www.etsy.com/shop/aadamsDesigns"><img src="../media/logos/etsy.png" style="width:1.5%"  class="w3-hover-opacity" alt="Etsy"></a>
+	
+	
+  </div>
+  
+  
 </footer>
 
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 </html>
+
+
